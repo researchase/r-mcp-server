@@ -5,9 +5,8 @@
 library(mcptools)
 library(ellmer)
 
-MAX_OUTPUT_CHARS <- 8000
-
 run_r_code <- function(code) {
+  MAX_OUTPUT_CHARS <- 8000
   warnings <- character()
   messages <- character()
 
